@@ -25,3 +25,13 @@
    
 }
 
+.largeHoverElement{
+    text-align: center;
+    height: 600px;
+    vertical-align: middle;
+    line-height: 600px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+

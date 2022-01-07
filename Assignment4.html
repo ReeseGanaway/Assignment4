@@ -5,17 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="myscripts.js"></script>
+    <script defer src="myscripts.js"></script>
     <link rel="stylesheet" href="stylesheet.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
 
     <title>Document</title>
+
 </head>
 
 <body>
 
+
+    <!--div class: q1button is for problem 1-->
     <div class="q1buttons">
         
         <div class="b1box">
@@ -28,8 +31,15 @@
         </div>
     
     </div>
-    <!--<div class="container">
-        <form>
+
+    <!--div class: largeHoverElemnt is for problem 2-->
+    <div class="largeHoverElement" onmouseover="hoverAlert()">Don't hover over me</div>
+
+
+    <!--div class: container solves question 3-->
+    <div class="container">
+        <h1 id="submitHeader">Login</h1>
+        <form action="Assignment4.html" method="get" id=form>
             <div class="mb-3">
                 <label for="exampleInputEmail1" class="form-label">Email address</label>
                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
@@ -45,7 +55,7 @@
             </div>
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
-    </div>-->
+    </div>
 </body>
 
 </html>
