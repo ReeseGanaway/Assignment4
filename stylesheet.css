@@ -1,0 +1,24 @@
+.q1buttons{
+    display:flex;
+    background-color: blue;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    
+   
+}
+
+.b1Box{
+    float: left;
+   
+}
+
+.b2box{
+    float: right;
+}
+
+#buttonArgument{
+    color: crimson;
+   
+}
+
