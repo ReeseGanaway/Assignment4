@@ -14,39 +14,20 @@ function hoverAlert(){
     alert("Hey, I told you not to hover over me!")
 }
 
-//Fu
+//Function for question 4
 const form=document.getElementById("form")
 const password=document.getElementById("exampleInputPassword1")
 const rightPassword=12345678
 let user=document.getElementById("exampleInputEmail1")
-function correctPassword(){
-    if(password.value.match(password)){
-        alert("no")
-    }
-    else{
-        alert('yes')
-    }
-}
-
-
-
+const header=document.getElementById("submitHeader").innerText
 form.addEventListener('submit',(event) => {
-    console.log(password.value)
+
+    
     if(password.value==rightPassword){
-        document.getElementById("submitHeader").innerText="Hello, welcome!";
+        document.querySelector("#submitHeader").innerText="Hello, welcome!"
     }
     else{
         alert("SIKE! THATS THE WRONG NUMBA!")
     }
+    event.preventDefault()
 })
-
-/*form.addEventListener('submit',(e)=>{
-    console.log(password)
-    console.log(password.value)
-    if(password.value.match(password)){
-        alert("no")
-    }
-    else{
-        alert('yes')
-    }
-})*/
